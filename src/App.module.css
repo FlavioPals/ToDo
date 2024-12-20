@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('src/fonts/Inter-Italic-VariableFont_opsz,wght.ttf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter';
+}
+
+aside{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.backgroundHeader {
+    background-color: #141414;
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 4rem;    
+    font-family: 'Inter';
+    font-weight: bold;
+}
+
+.backgroundHeader img{
+    width: 5rem;
+}
+
+.backgroundHeader p:nth-child(2){
+    color: #4EA8DE;
+}
+.backgroundHeader p:nth-child(3){
+    color: #5E60CE;
+}
+
+.backgroundBody{
+    background-color: #262626;
+    width: 100%;
+    height: 100%;
+    color: white;
+    height:80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.backgroundSideLeft{
+    position: absolute;
+    top: 0px;
+    background-color: rgb(10, 10, 10);
+    height: 100vh; 
+    width: 4rem;
+    right: 0px;
+
+}
+.backgroundSideRight{
+    top: 0px;
+    position: absolute;
+    background-color: rgb(9, 9, 9);
+    height: 100vh; 
+    width: 4rem;
+}
+
+.backgroundTaskbar{
+  position: absolute;
+  bottom: 77vh;
+  width: 100vh;
+}
+

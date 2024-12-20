@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('src/fonts/Inter-Italic-VariableFont_opsz,wght.ttf');
+}
+ 
+
+
+.taskCreated{
+    position: relative;
+    top: 22vh;
+    width: 25vh;
+    height: 5vh;
+    border-radius: 10px;
+    color: #4EA8DE;
+    font-size: 1.5rem;
+}
+
+.taskCreated p:nth-child(2) {
+    display: flex;
+    position: relative;
+    width: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    background-color: #333333; 
+    color: #F2F2F2;
+    border-radius: 10px;
+    position: relative;
+    left: 9.5rem;
+    bottom: 1.7rem;
+}

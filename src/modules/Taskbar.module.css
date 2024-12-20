@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('src/fonts/Inter-Italic-VariableFont_opsz,wght.ttf');
+}
+form{
+    display: flex;
+}
+
+.taskbar{
+    position: relative;
+    border-radius: 10px;
+    height: 3rem;
+    width: 90vh;
+    resize: none;
+    background-color: #333333;
+    padding-top: 0.9rem;
+    padding-left: 0.5rem;
+    color: #f2f2f2;
+    font-size: 1rem;
+    font-family: 'Inter';
+    overflow: hidden
+}
+.taskbar:hover{
+    cursor: pointer;
+}
+
+.taskbarButton{
+    position: relative;
+    width: 11vh;
+    height: 3rem;
+    left: 0.5rem;
+    border-radius: 10px;
+    background-color: #1E6F9F;
+    border: none;
+    color: #f2f2f2;
+    font-family: 'Inter';
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.taskbarButton:hover{
+    cursor: pointer;	
+    background-color: #4EA8DE;
+}
+
+.taskbarButton img{
+    width: 1rem;
+    color: white;
+}
+
+.tasks{
+    position: absolute;
+    top: 24svh;
+    width: 100vh;
+    height: 50vh;
+}
